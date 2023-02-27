@@ -1,0 +1,50 @@
+.on,
+.off {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    min-width: 18px;
+    width: 18px;
+    height: 18px;
+    border: 3px solid #008594;
+    border-radius: 3px;
+}
+
+.on::before,
+.off::before {
+    opacity: 0;
+    position: absolute;
+    top: 1.5px;
+    right: 3.4px;
+    content: "";
+    width: 2px;
+    height: 9px;
+    background-color: #fff;
+    transform: rotate(45deg);
+}
+
+.on::after,
+.off::after {
+    opacity: 0;
+    position: absolute;
+    top: 5.3px;
+    right: 7.5px;
+    content: "";
+    width: 2px;
+    height: 4px;
+    background-color: #fff;
+    transform: rotate(-45deg);
+}
+
+.on {
+    background-color: #008594;
+}
+
+.on::before {
+    opacity: 1;
+}
+
+.on::after {
+    opacity: 1;
+}

@@ -1,0 +1,90 @@
+.taskinput__container {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 56px;
+    padding: 0px 15px;
+}
+
+.inputSuccess,
+.inputError {
+    outline: none;
+    border-radius: 4px;
+    padding: 12px 16px;
+    width: 954px;
+}
+
+.inputSuccess {
+    border: 1px solid #FFCD04;
+}
+
+.inputError {
+    border: 1px solid red;
+}
+
+
+.inputSuccess::placeholder,
+.inputError::placeholder {
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: #DFDFDF;
+}
+
+.taskinput__name {
+    font-size: 18px;
+    line-height: 27px;
+    color: #174348;
+}
+
+.taskinput__box {
+    display: flex;
+    gap: 24px;
+}
+
+.taskinput__button {
+    color: #fff;
+    background-color: #008594;
+    border-radius: 4px;
+    padding: 12px 31.5px;
+}
+
+.err_message {
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #FF3104;
+}
+
+@media (max-width: 370px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 16px;
+    }
+
+    .inputSuccess,
+    .inputError {
+        border-radius: 4px;
+        padding: 8px 16px;
+        width: 95%;
+        max-width: 327px;
+        margin: 0 9px;
+    }
+
+    .button {
+        margin-right: 9px;
+    }
+
+    .inputSuccess::placeholder {
+        font-size: 12px;
+        line-height: 27px;
+        letter-spacing: 0.5px;
+        text-transform: capitalize;
+        color: #DFDFDF;
+    }
+}

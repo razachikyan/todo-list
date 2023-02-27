@@ -1,0 +1,57 @@
+.tasklist__container {
+    /* max-width: 1170px; */
+    padding: 0px 15px;
+    margin: 0 auto;
+    margin-top: 82px;
+    margin-bottom: 180px;
+}
+
+.message_box {
+    max-width: 1170px;
+    padding: 0px 15px;
+    margin: 0 auto;
+    margin-top: 82px;
+    margin-bottom: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tasklist__descr {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    text-transform: lowercase;
+    color: #ACACAC;
+}
+
+.tasklist__message {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.002em;
+    text-transform: capitalize;
+    color: #666666;
+}
+
+@media (max-width: 370px) {
+    .tasklist__descr {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.2px;
+        text-transform: lowercase;
+        color: #ACACAC;
+    }
+
+    .tasklist__message {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.002em;
+        text-transform: lowercase;
+        color: #666666;
+    }
+}
