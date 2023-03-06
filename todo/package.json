@@ -42,6 +42,7 @@
   },
   "devDependencies": {
     "nanoid": "^4.0.1",
+    "normalize.css": "^8.0.1",
     "react-redux": "^8.0.5",
     "redux": "^4.2.1",
     "redux-devtools-extension": "^2.13.9"
